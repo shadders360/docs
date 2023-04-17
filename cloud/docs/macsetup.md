@@ -4,10 +4,18 @@ Things I did with my new MAC m2
 
 ## Installed software
 
+Install [BREW](https://brew.sh/)
+
 1. installed Visual studio code ARM version
 2. synced my visual code settings via the synced setting option
 3. install GIT as part of MACOS code tools
-4. https://aws.amazon.com/cli/  via mac install (not brew)
+4. https://aws.amazon.com/cli/  via mac install (not via brew)
+5. shortcut tool `brew install --cask maccy` [see](https://www.macupdate.com/app/mac/60683/maccy)
+6. iterm2 `brew install --cask iterm2`
+7. install [oh-my-zsh](https://blog.larsbehrenberg.com/the-definitive-iterm2-and-oh-my-zsh-setup-on-macos)
+8. brew install tree
+9. brew install [rectangle](https://rectangleapp.com/)
+10. brew install fig [fig](https://fig.io/)
 
 ## Docker install
 
@@ -40,3 +48,8 @@ Run: docker buildx build --load --build-arg BUILDKIT_INLINE_CACHE=1 -f /tmp/devc
 docker run --platform linux/amd64 --rm -it -v ~/.aws:/root/.aws dtjohnson/aws-azure-login --profile azure
 
 ```
+
+## Other software may look at
+
+[Notion](https://www.notion.so/product)
+[Bitwarden](https://bitwarden.com/)
