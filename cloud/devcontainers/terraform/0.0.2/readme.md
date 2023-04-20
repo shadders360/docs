@@ -1,7 +1,7 @@
 # Dev container
 
 The file `.devcontainer/devcontainer.json` controls and builds a docker environment which can
-be used as development environment within vscode. As it runs in a docker container it is platform independent and isolates 
+be used as development environment within vscode. As it runs in a docker container it is platform independent and isolates
 all the problem of version mismatching. Everybody has the same setup, no more it works on mine !
 
 you can read more about [devcontainers here](https://code.visualstudio.com/docs/devcontainers/containers)
@@ -31,7 +31,10 @@ In this example Terraform has been pinned to 1.4.2. Keep this in line with the d
 
 ## software
 
-This image has the following installed software
+This image has additional software installed via the `features:` block in the `devcontainer.json` file. 
+check the block or add any other features you may require to be added to the image for your dev work.
+
+### General links
 
 * [terraform] (https://www.terraform.io/)
 * [terragrunt](https://terragrunt.gruntwork.io/)

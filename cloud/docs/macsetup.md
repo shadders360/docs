@@ -16,6 +16,7 @@ Install [BREW](https://brew.sh/)
 8. brew install tree
 9. brew install [rectangle](https://rectangleapp.com/)
 10. brew install fig [fig](https://fig.io/)
+11. brew install buildpacks/tap/pack
 
 ## Docker install
 
@@ -53,3 +54,4 @@ docker run --platform linux/amd64 --rm -it -v ~/.aws:/root/.aws dtjohnson/aws-az
 
 [Notion](https://www.notion.so/product)
 [Bitwarden](https://bitwarden.com/)
+[buildpacks](https://buildpacks.io/)
