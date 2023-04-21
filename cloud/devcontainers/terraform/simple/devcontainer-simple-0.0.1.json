@@ -1,4 +1,0 @@
-{
-	"name": "terraform",
-    "image": "dvlashadders/vscode-terraform:latest"
-}
